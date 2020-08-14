@@ -1,36 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ogrendiklerimiz</title>
+    <title>E.T Blog</title>
 </head>
 <body>
-    <h1>Ogrendiklerim</h1>
-    <!--<br>-->
+    <h1>Yazılım Bloğum</h1>
+    <fieldset>
+        <legend><strong>Bilgilerim</strong></legend>
+     <table>
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                 <td>Erkan</td>
+                 <td>Tiryakioğlu</td>
+                 <td>erkanster@hotmail.com</td>              
+            </tr>
+        </tbody>
+     </table>
+    </fieldset>
+    <br>
+        <fieldset>
+            <legend><strong>Şikayet ve Öneri</strong></legend>
+            <form action="https://outlook.live.com/owa/" target="_blank" method="POST">
+            <label>Bana öneri veya şikayetin var mı?</label>
+            <input type="text" name="öneri-şikayet" placeholder="İşe yaramıyor mail at :D">
+            </form> 
+        </fieldset> 
+    <br>   
+        <fieldset>
+            <legend><strong>Sosyal Medya</strong></legend>
+            <ul>
+             <li>
+                <a href=https://www.instagram.com/erkan.tryk/ target="_blank">Instagram</a>
+             </li>
+            </ul>
+        </fieldset>
+        <br>    
+        <fieldset>
+            <legend><strong>Sizin Alanınız</strong></legend>
+            <div>
+                <label>Cinsiyet</label>
+                 <select name="Cinsiyet">
+                  <option value="Erkek">Erkek</option>
+                  <option value="Kadın">Kadın</option>
+                  <option value="Diğer">Diğer</option>
+                 </select>
+            </div>
+            <br>
+            <div>
+                 <label>Doğum Tarihi</label>
+                 <input type="date" name="Doğum Tarihi">
+             </div>      
+             <br>   
+             <div>
+                <label>Yaş</label>
+                <input type="number" name="Yaş" value="18">
+            </div>      
+            <br>  
+            <div>
+                <label>Mesajınız</label>
+                <textarea name="Mesajınız"></textarea>
+            </div>
+        </fieldset>
+        <br>
+        <hr>
+    <h2>Öğrendiklerim</h2>
         <fieldset>
             <legend>13/08/2020</legend>
-            <ol>
+            <ul>
                 <li>
-                    HTML ile neler yapilir
+                    HTML ile neler yapılır
                 </li>
                 <li>
-                    HTML Basit kodlari Ogrendik
+                    Başlık ve paragraf kodları
                 </li>
-            </ol>
+                <li>
+                    Maddeleme
+                </li>
+            </ul>
     </fieldset>
     <br>
     <fieldset>
         <legend>14/08/2020</legend>
-        <ol>
+        <ul>
             <li>
-                HTML ile neler yapilir 2
+                <strong>Güçlü yazma</strong>
             </li>
             <li>
-                HTML Basit kodlari Ogrendik 2
+                <em>Eğik yazma</em>
             </li>
             <li>
-                Deneme 1 2
+                <a href=first.html >Yönlendirme</a>
             </li>
-        </ol>
+            <li>
+                Tarih, mesaj kutusu, seçenek vs. ekleme
+            </li>
+            <li>
+                Mesaj kutusuna silik yazı ekleme
+            </li>
+        </ul>
 </fieldset>
 </body>
 </html>
