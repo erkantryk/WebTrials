@@ -2,9 +2,43 @@
 <html>
 <head>
     <title>E.T Blog</title>
-</head>
+    <style type="text/css">
+       #mainHeader{
+           text-align: center;
+           background-color: black;
+           color: white;
+           padding: 10px;
+       }
+       #secondHeader{
+            text-align: center;
+            background-color: black;
+            color: wheat;
+            padding: 10px;
+        }
+        #mainFooter{
+            text-align: center;
+            background-color: rgb(51, 92, 95);
+            color: wheat;
+            padding: 10px;
+        }
+    </style>
+    </head>
 <body>
-    <h1>Yazılım Bloğum</h1>
+    <header id="mainHeader">
+      <h1>Yazılım Bloğum</h1>
+    </header>
+    <br>
+    <a href="yazilim1.jpg">
+    <img src="yazilim1.jpg" width="400" height="200" alt="Yazılım Ekranı"> 
+    </a>
+    <a href="yazilim3.jpg">
+        <img src="yazilim3.jpg" width="400" height="200" alt="Yazılım Ekranı"> 
+        </a>
+        <a href="yazilim2.jpg">
+            <img src="yazilim2.jpg" width="400" height="200" alt="Yazılım Ekranı"> 
+         </a>
+    <br>
+    <br>
     <fieldset>
         <legend><strong>Bilgilerim</strong></legend>
      <table>
@@ -67,12 +101,17 @@
                 <label>Mesajınız</label>
                 <textarea name="Mesajınız"></textarea>
             </div>
+            <br>
+            <input type="submit" name="Gönder" value="Gönder">
         </fieldset>
         <br>
         <hr>
-    <h2>Öğrendiklerim</h2>
-        <fieldset>
-            <legend>13/08/2020</legend>
+    <header id="secondHeader">  
+        <h2>Öğrendiklerim</h2>
+    </header>  
+    <br>   
+    <fieldset>
+            <legend><strong>13/08/2020</strong></legend>
             <ul>
                 <li>
                     HTML ile neler yapılır
@@ -87,7 +126,7 @@
     </fieldset>
     <br>
     <fieldset>
-        <legend>14/08/2020</legend>
+        <legend><strong>14/08/2020</strong></legend>
         <ul>
             <li>
                 <strong>Güçlü yazma</strong>
@@ -106,5 +145,35 @@
             </li>
         </ul>
 </fieldset>
+<br>
+<fieldset>
+    <legend><strong>15/08/2020</strong></legend>
+    <ul>
+        <li>
+            Gönder butonu
+        </li>
+        <li>
+            Resim ekleme ve yönlendirme verme
+        </li>
+        <li>
+            <abbr title="Altı Çizili Yazı Ekleme">AÇYE</abbr>
+        </li>
+        <li>
+            <cite>Bunun gibi</cite> cümleden yazı ayırmak için eğmek
+        </li>
+        <li>
+            Header ve footer kodları
+        </li>
+        <li>
+            Renk değiştirme, yazının yerini ayarlama
+        </li>
+        <li>
+            Meta kodları
+        </li>
+    </ul>
+</fieldset>
 </body>
+<footer id="mainFooter">
+    <p>Copyright &copy; 2020, Ekosel</p>
+</footer>
 </html>
