@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     background-color: silver;
     color: black;
@@ -16,6 +22,8 @@ body {
 #main-header {
     background-color: rgb(231, 67, 7);
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #navbar {
@@ -26,32 +34,45 @@ body {
 #navbar ul {
     padding: 0;
     list-style: none;
+    margin-block-start: 0;
+    line-height: 40px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
+.clear {
+    clear: both;
 }
 
 #navbar li {
-    display: inline
+    display: block;
+    float: left;
 }
 
-#navbar a {
+.menuItem {
     color: #fff;
+    display: block;
     text-decoration: none;
     font-size: 13px;
+    transition: ease-in-out 0.6s;
     padding-right: 15px;
+    padding-left: 15px;
+    height: 40px;
+}
+
+.menuItem:hover {
+    background-color: rgb(145, 65, 36);
+    color: white;
+    border: 1px black solid;
 }
 
 #showcase {
     background-image: url(../MyWebsite/images/showcase.jpg);
     background-position: center right;
     min-height: 300px;
-    margin-bottom: 30px;
     text-align: center;
-}
-
-#showcase h1 {
-    color: #fff;
-    font-size: 30px;
-    line-height: 1.6em;
-    padding-top: 5px;
 }
 
 #main {
@@ -78,7 +99,7 @@ body {
     margin-top: 40px;
 }
 
-@media(max-width:600px) {
+@media (max-width: 600px) {
     #main {
         width: 100%;
         float: none;
@@ -87,4 +108,37 @@ body {
         width: 100%;
         float: none;
     }
+}
+
+.url {
+    font-size: 70px;
+    padding-top: 20px;
+    display: inline-block;
+    padding-top: 100px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.com {
+    font-size: 40px;
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    border: black solid;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#sidebar h2 {
+    text-align: center;
+}
+
+#sidebar p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#sidebar {
+    border: black solid;
 }

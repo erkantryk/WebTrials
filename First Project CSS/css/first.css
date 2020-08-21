@@ -90,7 +90,7 @@ a:active {
 }
 
 .form label {
-    display: block
+    display: block;
 }
 
 .form input[type="text"] {
