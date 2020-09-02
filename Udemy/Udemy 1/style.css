@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.top-container {
+    background-color: #827397;
+
+}
+
+body {
+    text-align: center;
+}
+
+.top-container {
+    position: relative;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 350px;
+    top: 150px
+}
+
+.top-cloud {
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+
+.top-container h1 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+    font-size: 40px;
+}
+
+.top-container p {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 25px;
+    padding-top: 10px;
+}
